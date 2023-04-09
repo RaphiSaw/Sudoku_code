@@ -263,9 +263,6 @@ function bonneReponse(caseChoisi) {
     else return false;
 }
 //Cette fonction  va  vérifier lorsqu'on a gagné 
-/*  if (checkWin()) {
-    finirJoute();
-}*/
 function checkWin() {
     let cases = qsa(".case");
     for (let i = 0; i < cases.length; i++) {
