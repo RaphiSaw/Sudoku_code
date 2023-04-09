@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sudoku</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="difficulte" id="difficulte">
+                <p class="phrase">Choisir la difficulté : </p>
+                <button class="facile" id="btn-facile" >Facile</button>
+                <button class="moyenne" id="btn-moyenne">Moyenne</button>
+                <button class="difficile" id="btn-difficle">Difficile</button>
+            </div>
+        </div>
+        <div id="minuterie">
+            <span id="minutes">00</span>:<span id="secondes">00</span>
+        </div>
+        <div id="vies">
+
+        </div>
+        <div id="sudoku-map">
+
+        </div>
+        <div id="chiffre-container" class="chiffres">
+            <p id="zero">0</p>
+            <p id="un">1</p>
+            <p id="deux">2</p>
+            <p id="trois">3</p>
+            <p id="quatre">4</p>
+            <p id="cinq">5</p>
+            <p id="six">6</p>
+            <p id="sept">7</p>
+            <p id="huit" >8</p>
+            <p id="neuf">9</p>
+        </div>
+        <div class="btnRecommencer">
+            <button id="btnRestart">Recommencer</button>
+        </div>
+    </main>
+    <footer>
+        &copy; Raphaël Sawaya | La Cité
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
